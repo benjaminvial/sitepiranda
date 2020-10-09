@@ -5,10 +5,10 @@
     while ( have_posts() ) :
         the_post(); ?>
 <article>
-    <a href="<?php the_permalink();?>"><h2><?php the_title(); ?></h2></a>
+    <h2><?php the_title(); ?></h2>
     <div><?php the_content(); ?></div>
 </article>
-<p> <?php comments_number();?>.</p>
+<?php comments_template();?>
 <?php endwhile;else:?><p> Désolé pas d'article!</p>
  <?php endif; ?>
 <section>
