@@ -52,6 +52,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 
 header h1,header h2{
 text-align: center;
+color: red;
 }
 
 aside{

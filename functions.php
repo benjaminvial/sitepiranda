@@ -7,8 +7,8 @@ add_action('after_setup_theme','ajout_titre');
 
 //ajout du style et du js
 function ajout_style() {
-  wp_enqeue_style('general',get_template_directory_uri().'style.css');
+  wp_enqueue_style('general',get_template_directory_uri().'css/style.css');
 }
-add_action('wp_enqeue_scripts','ajout_style');
+add_action('wp_enqueue_scripts','ajout_style');
 
 ?>
