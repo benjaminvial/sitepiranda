@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="utf-8"/>
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css" type="text/css" />
+<meta charset="utf-8"/>
 <?php wp_head();?>
 </head>
 <header>
