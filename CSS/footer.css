@@ -3,19 +3,14 @@ footer {
 }
 
 footer  > div > div> div{
-
   flex-direction: column;
-
-
-
 }
+
 footer > div > div {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   }
-
-
 
 .wrap{
   width: 80%;
