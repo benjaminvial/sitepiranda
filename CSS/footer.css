@@ -1,17 +1,14 @@
 footer {
   background-color: #191F2E;
-
+  padding: 1em;;
 }
-
-footer  > div > div> div{
-  flex-direction: column;
-}
-
-footer > div > div {
+footer .info   {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  }
+  border-bottom: 1px solid white;
+}
+
 
 .wrap{
   width: 80%;
@@ -21,4 +18,22 @@ footer > div > div {
 h3{
   color:white;
   text-transform: uppercase;
+}
+
+p{
+  color:white;
+}
+
+.social_media{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+ span  {
+color: white;
+align-items: center;
+text-align: center;
+display: block;
+padding-top: 1em;
 }

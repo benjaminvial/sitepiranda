@@ -7,7 +7,7 @@
 </head>
 <footer>
   <div class="wrap">
-    <div>
+    <div class="info">
       <div>
           <img src="" alt="burgermenu">
           <h3>menu</h3>
@@ -15,7 +15,7 @@
           <p>Inspirations</p>
           <p>Oeuvres</p>
           <p>Contact</p>
-        </div>
+      </div>
 
         <div>
           <img src="" alt="logo informations">
@@ -36,16 +36,16 @@
 
     </div>
 
-    <div>
+    <div class="social_media">
         <p>Copyright © 2020. Tous droits réservés.</p>
+        <div>
         <img src="" alt="logo pinterest">
         <img src="" alt="logo instagram">
         <img src="" alt="logo vimeo">
+      </div>
     </div>
 
-    <div>
-        <p>Mentions légales - Crédits</p>
-    </div>
+        <span>Mentions légales - Crédits</span>
 
   </div>
 <?php wp_footer();?>
