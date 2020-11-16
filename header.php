@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
+<head>.
 <meta charset="utf-8"/>
 <?php wp_head();?>
 </head>
 <header>
   <nav id="menuprincipal">
+    <ul id="menu">
+    	<a href="about.php" title="A propos de moi">A propos de moi</a>
+    	<a href="inspiration.php" title="Mes inspirations">Mes inspirations</a>
+    	<a href="oeuvres.php" title="Mes oeuvres">Mes oeuvres</a>
+    	<a href="contact.php" title="contact">CONTACT</a>
+  	</ul>
     <?php wp_page_menu('show_home=1');?>
   <nav>
   <aside>
