@@ -15,7 +15,7 @@
   <meta property="og:site_name" content="Document minimal en MMI">
   <title>François Piranda</title>
 <link id="avast_os_ext_custom_font" href="css/header.css" rel="stylesheet" type="text/css">
-
+<?php wp_head();?>
 </head>
 <header>
   <nav>
