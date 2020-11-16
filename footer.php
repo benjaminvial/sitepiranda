@@ -1,51 +1,53 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width">
-<link rel="stylesheet" type="text/CSS" href="css/reset.css"/>
-<link rel="stylesheet" type="text/CSS" href="css/footer.css"/>
+<link rel="stylesheet" type="text/CSS" href="CSS/reset.css"/>
+<link rel="stylesheet" type="text/CSS" href="CSS/footer.css"/>
 
 </head>
 <footer>
-  <div>
+  <div class="wrap">
     <div>
-        <img src="" alt="burgermenu">
-        <h3>menu</h3>
-        <p>A propos</p>
-        <p>Inspirations</p>
-        <p>Oeuvres</p>
-        <p>Contact</p>
-      </div>
-
       <div>
-        <img src="" alt="logo informations">
-        <h3>informations</h3>
-        <p>contact@francois-piranda.art</p>
-        <p>06 77 65 97 77</p>
-      </div>
+          <img src="" alt="burgermenu">
+          <h3>menu</h3>
+          <p>A propos</p>
+          <p>Inspirations</p>
+          <p>Oeuvres</p>
+          <p>Contact</p>
+        </div>
 
-      <div>
-        <img src="" alt="logo enveloppe">
-        <h3>newsletter</h3>
-        <p>Pour rester au courant de mes projets !</p>
-        <form class="" action="index.html" method="post">
-          <input type="text" name="newsletter" value="Adresse mail">
-          <input type="submit" value="Envoyer">
-        </form>
-      </div>
+        <div>
+          <img src="" alt="logo informations">
+          <h3>informations</h3>
+          <p>contact@francois-piranda.art</p>
+          <p>06 77 65 97 77</p>
+        </div>
+
+        <div>
+          <img src="" alt="logo enveloppe">
+          <h3>newsletter</h3>
+          <p>Pour rester au courant de mes projets !</p>
+          <form class="" action="index.html" method="post">
+            <input type="text" name="newsletter" value="Adresse mail">
+            <input type="submit" value="Envoyer">
+          </form>
+        </div>
+
+    </div>
+
+    <div>
+        <p>Copyright © 2020. Tous droits réservés.</p>
+        <img src="" alt="logo pinterest">
+        <img src="" alt="logo instagram">
+        <img src="" alt="logo vimeo">
+    </div>
+
+    <div>
+        <p>Mentions légales - Crédits</p>
+    </div>
 
   </div>
-
-  <div>
-      <p>Copyright © 2020. Tous droits réservés.</p>
-      <img src="" alt="logo pinterest">
-      <img src="" alt="logo instagram">
-      <img src="" alt="logo vimeo">
-  </div>
-
-  <div>
-      <p>Mentions légales - Crédits</p>
-  </div>
-
 <?php wp_footer();?>
 </footer>
 </html>

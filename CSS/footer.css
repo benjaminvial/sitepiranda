@@ -1,0 +1,28 @@
+footer {
+  background-color: #191F2E;
+}
+
+footer  > div > div> div{
+
+  flex-direction: column;
+
+
+
+}
+footer > div > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  }
+
+
+
+.wrap{
+  width: 80%;
+  margin:auto;
+}
+
+h3{
+  color:white;
+  text-transform: uppercase;
+}
