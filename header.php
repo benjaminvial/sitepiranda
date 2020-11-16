@@ -2,7 +2,7 @@
 
 <html lang="fr" xmlns:og="http://ogp.me/ns#"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-  <meta name="author" content="Milan Comajuan">
+  <meta name="author" content="Milan Comajuan Killian claeyssen Benjamin Vial Robin Meunier">
   <meta name="keywords" content="document html5 mmi">
   <meta name="description" content="Document minimal html5 en DUT MMI">
   <!-- Affichage standard sur périphérique mobile pour site adaptatif -->
@@ -14,12 +14,12 @@
   <meta property="og:title" content="Document minimal en MMI">
   <meta property="og:site_name" content="Document minimal en MMI">
   <title>François Piranda</title>
-<link id="avast_os_ext_custom_font" href="css/accueil.css" rel="stylesheet" type="text/css">
+<link id="avast_os_ext_custom_font" href="css/header.css" rel="stylesheet" type="text/css">
 
 </head>
 <header>
-  <nav id="menuprincipal">
-    <ul id="menu">
+  <nav>
+    <ul>
 
 	    <img class="logopiranda" src="" alt="logo piranda" "width="" height="">
     	<a href="about.php" title="A propos de moi">A propos de moi</a>
@@ -34,9 +34,7 @@
 
     <?php wp_page_menu('show_home=1');?>
   <nav>
-  <aside>
-    <?php get_sidebar();?>
-  </aside>
+
 <h1> <?php bloginfo('name');?> </h1>
 <h2><?php bloginfo('description');?><h2>
 </header>
