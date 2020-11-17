@@ -1,22 +1,21 @@
-<div></div>
-<footer>
-  <div >
-<p>hello there<p>
-  </div>
 
+<footer>
+  <div class="contact">
+    <p>Envie de suivre mes actualités? <a href=""> Contactez-moi!</a> <p>
+  </div>
   <div class="wrap">
     <div class="info">
       <div>
-          <img src="" alt="burgermenu">
+          <img src="" alt="Logo Menu">
           <h3>menu</h3>
           <a href="">A propos</a>
           <a href="">Inspirations</a>
-          <a href ="">Oeuvres</a>
+          <a href="">Oeuvres</a>
           <a href="">Contact</a>
       </div>
 
         <div>
-          <img src="" alt="logo informations">
+          <img src="" alt="Logo Informations">
           <h3>informations</h3>
           <p>contact@francois-piranda.art</p>
           <p>06 77 65 97 77</p>
@@ -37,9 +36,9 @@
     <div class="social_media">
         <p>Copyright © 2020. Tous droits réservés.</p>
         <div>
-        <img src="" alt="logo pinterest">
-        <img src="" alt="logo instagram">
-        <img src="" alt="logo vimeo">
+        <img src="" alt="Logo Pinterest">
+        <img src="" alt="Logo Instagram">
+        <img src="" alt="Logo Vimeo">
       </div>
     </div>
 
