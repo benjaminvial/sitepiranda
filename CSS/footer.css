@@ -1,24 +1,4 @@
-
-/* le wrap a une taille de 80% */
-.wrap{
-  width: 80%;
-  margin:auto;
-}
-
-/* la partie contact a un background different du rest du footer*/
-.contact{
-    background-color: #005570;
-    padding-top:1em;
-    padding-bottom: 1em;
-}
-
-.contact p{
-  text-align: center;
-  align-items: center;
-  display: block;
-}
-
-
+/*style footer gééral*/
 footer {
   background-color: #191F2E;
   padding-bottom: : 1em;
@@ -43,6 +23,25 @@ footer a{
 footer a:visited{
   color:white;
   text-decoration:none;
+}
+
+/* le wrap a une taille de 80% */
+.wrap{
+  width: 80%;
+  margin:auto;
+}
+
+/* la partie contact a un background different du rest du footer*/
+.contact{
+    background-color: #005570;
+    padding-top:1em;
+    padding-bottom: 1em;
+}
+
+.contact p{
+  text-align: center;
+  align-items: center;
+  display: block;
 }
 
 /* la partie info est composé de trois colonne alignés */

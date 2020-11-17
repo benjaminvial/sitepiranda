@@ -37,8 +37,8 @@
         <p>Copyright © 2020. Tous droits réservés.</p>
         <div>
         <img src="../pictures/logo/pinterest.svg" alt="Logo Pinterest">
-        <img src="../pictures/logo/" alt="Logo Instagram">
-        <img src="" alt="Logo Vimeo">
+        <img src="../pictures/logo/instagram.svg" alt="Logo Instagram">
+        <img src="../pictures/logo/vimeo.svg" alt="Logo Vimeo">
       </div>
     </div>
 

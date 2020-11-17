@@ -18,4 +18,4 @@
     <?php endforeach;
     wp_reset_postdata();?>
 </section>
-  <?php get_footer5();?>
+  <?php get_footer();?>
