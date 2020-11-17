@@ -1,4 +1,9 @@
+<div></div>
 <footer>
+  <div >
+<p>hello there<p>
+  </div>
+
   <div class="wrap">
     <div class="info">
       <div>
