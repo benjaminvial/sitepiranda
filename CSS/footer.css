@@ -1,7 +1,7 @@
-/*style footer gééral*/
+/*style footer général*/
 footer {
   background-color: #191F2E;
-  padding-bottom: : 1em;
+  padding-bottom: : 3em;
   padding-top: 0;
   margin:auto;
 }
@@ -9,6 +9,10 @@ footer {
 footer h3{
   color:white;
   text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  padding-top: 1em ;
+  padding-bottom: 0.5em ;
 }
 
 footer p{
@@ -42,6 +46,14 @@ footer a:visited{
   text-align: center;
   align-items: center;
   display: block;
+  font-weight:  400;
+  font-size: 150%;
+}
+
+.contact  p > a{
+  text-decoration: underline;
+  font-weight: 400;
+  font-size: 120%;
 }
 
 /* la partie info est composé de trois colonne alignés */
@@ -49,8 +61,10 @@ footer .info   {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  border-bottom: 1px solid white;
-  padding-top:
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+
+  padding-top:1em;
+  padding-bottom: 1em;
 }
 
 footer .info div{
@@ -58,6 +72,10 @@ footer .info div{
   flex-direction: column;
 }
 
+.info img{
+  width:21px;
+  align-items: flex-start;
+}
 
 
 /*réseau sociaux et copyright*/
@@ -66,8 +84,16 @@ footer .info div{
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  padding-top: 1em;
 }
-
+.social_media p{
+  font-weight:  300;
+  font-size: 62%;
+}
+.social_media img{
+  width:1em;
+  align-items: flex-start;
+}
 
 /*Mentions légales*/
 footer  span  {
@@ -76,4 +102,7 @@ align-items: center;
 text-align: center;
 display: block;
 padding-top: 1em;
+padding-bottom: 1em;
+font-weight:  300;
+font-size: 62%;
 }
