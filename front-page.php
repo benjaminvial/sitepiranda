@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html>
+<head>
+  <link  href="css/front-page.css" rel="stylesheet" type="text/css">
+ <?php wp_head();?>
+</head>
 <body>
   <div class="wrap">
     <div class="logotype">
@@ -23,4 +27,5 @@
     </div>
   </div>
 </body>
+
 </html>
