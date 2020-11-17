@@ -3,7 +3,9 @@
 	<head>
 		<meta charset="utf-8"/>
   </head>
-  <body>
+<body>
+<div class="wrap">
+
 <div class="partie blanche">
   <!--ici nous avons la partie blanche de la page contact-->
   <h1> Me contacter </h1>
@@ -35,11 +37,7 @@
 </form>
 
 </div>
-
-
-
-
-
+</div>
 
   </body>
   </html>
