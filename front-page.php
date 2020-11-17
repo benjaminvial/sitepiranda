@@ -19,7 +19,7 @@
         <img src="<?php echo get_template_directory_uri();?>/pictures/logo/pinterest.svg" alt="Logo Pinterest">
       </div>
     </div>
-
+<!--ghjk-->
     <div>
       <img src="" alt="Ecriture François Piranda">
       <p>artiste</p>
