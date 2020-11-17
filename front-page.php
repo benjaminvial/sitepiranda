@@ -16,7 +16,7 @@
     </div>
 <!--ghjk-->
     <div>
-      <img src="" alt="Ecriture François Piranda">
+      <img src="<?php echo get_template_directory_uri();?>/pictures/header/texte_front_page/francois_piranda.svg" alt="Ecriture François Piranda">
       <p>artiste</p>
       <nav>
         <a href="#">À propos de moi </a>
