@@ -7,11 +7,11 @@
 <body>
   <div class="wrap">
     <div class="logotype">
-      <img src="pictures/logo/monogramme.svg" alt="Logo François Piranda">
+      <img src="../pictures/logo/monogramme.svg" alt="Logo François Piranda">
       <div class="social_media">
-        <img src="pictures/logo/vimeo.svg" alt="Logo Vimeo">
-        <img src=":/pictures/logo/insta.svg" alt="Logo Instagram">
-        <img src=":/pictures/logo/pinterest.svg" alt="Logo Pinterest">
+        <img src="../pictures/logo/vimeo.svg" alt="Logo Vimeo">
+        <img src="../pictures/logo/insta.svg" alt="Logo Instagram">
+        <img src="../pictures/logo/pinterest.svg" alt="Logo Pinterest">
       </div>
     </div>
 <h1></h1>
