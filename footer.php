@@ -1,20 +1,13 @@
-<html>
-<head>
-<meta name="viewport" content="width=device-width">
-<link rel="stylesheet" type="text/CSS" href="CSS/reset.css"/>
-<link rel="stylesheet" type="text/CSS" href="CSS/footer.css"/>
-
-</head>
 <footer>
   <div class="wrap">
     <div class="info">
       <div>
           <img src="" alt="burgermenu">
           <h3>menu</h3>
-          <p>A propos</p>
-          <p>Inspirations</p>
-          <p>Oeuvres</p>
-          <p>Contact</p>
+          <a href="">A propos</a>
+          <a href="">Inspirations</a>
+          <a href ="">Oeuvres</a>
+          <a href="">Contact</a>
       </div>
 
         <div>

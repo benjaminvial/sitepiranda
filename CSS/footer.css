@@ -1,3 +1,8 @@
+.wrap{
+  width: 80%;
+  margin:auto;
+}
+
 footer {
   background-color: #191F2E;
   padding: 1em;;
@@ -5,15 +10,12 @@ footer {
 footer .info   {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   border-bottom: 1px solid white;
 }
 
 
-.wrap{
-  width: 80%;
-  margin:auto;
-}
+
 
 h3{
   color:white;
@@ -23,11 +25,20 @@ h3{
 p{
   color:white;
 }
+a{
+  color:white;
+  text-decoration: none;
+}
+
+a:visited{
+  color:white;
+  text-decoration:none;
+}
 
 .social_media{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
  span  {

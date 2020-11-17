@@ -21,7 +21,7 @@
   <nav>
     <ul>
 
-	    <img class="logopiranda" src="" alt="logo piranda" "width="" height="">
+	    <img class="logopiranda" src="" alt="logo piranda" "width=" " height=" ">
     	<a href="about.php" title="A propos de moi">A propos de moi</a>
     	<a href="inspiration.php" title="Mes inspirations">Mes inspirations</a>
     	<a href="oeuvres.php" title="Mes oeuvres">Mes oeuvres</a>
