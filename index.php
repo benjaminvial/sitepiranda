@@ -1,15 +1,23 @@
-<?php get_header();?>
-<section>
-  <!--The Loop (la boucle)-->
-<?php if( have_posts() ) :
-    while ( have_posts() ) :
-        the_post(); ?>
-<article>
-    <a href="<?php the_permalink();?>"><h2><?php the_title(); ?></h2></a>
-    <div><?php the_content(); ?></div>
-</article>
-<p> <?php comments_number();?>.</p>
-<?php endwhile;else:?><p> Désolé pas d'article!</p>
- <?php endif; ?>
-<section>
-  <?php get_footer();?>
+<body>
+  <div class="wrap">
+    <div class="logotype">
+      <img src="" alt="Logo François Piranda">
+      <div class="social_media">
+        <img src="" alt="Logo Vimeo">
+        <img src="" alt="Logo Instagram">
+        <img src="" alt="Logo Pinterest">
+      </div>
+    </div>
+
+    <div>
+      <img src="" alt="Ecriture François Piranda">
+      <p>artiste</p>
+      <nav>
+        <a href="#">À propos de moi </a>
+        <a href="#">Inspirations</a>
+        <a href="#">Œuvres</a>
+        <a href="#">Contact</a>
+      </nav>
+    </div>
+  </div>
+</body>
