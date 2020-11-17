@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html>
 <body>
   <div class="wrap">
     <div class="logotype">
@@ -21,3 +23,4 @@
     </div>
   </div>
 </body>
+</html>
