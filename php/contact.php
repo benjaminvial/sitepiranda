@@ -17,8 +17,11 @@
   <img src="<?php echo get_template_directory_uri();?>/pictures/logo/logo_bleu/@.svg" alt="logo email" width="" height="">
   <h2> contact@francois-piranda.art </h2>
       <img src="<?php echo get_template_directory_uri();?>/pictures/logo/logo_bleu/instagram.svg" alt="logo instagram" width="" height="">
+      <!-- ici il y aura l'insta-->
         <img src="<?php echo get_template_directory_uri();?>/pictures/logo/logo_bleu/viméo.svg" alt="logo vimeo" width="" height="">
+        <!-- ici il y aura l'insta-->
           <img src="<?php echo get_template_directory_uri();?>/pictures/logo/logo_bleu/pinterest.svg" alt="logo pinterest" width="" height="">
+          <!-- ici il y aura l'insta-->
 </div>
 
 <div class="partie bleu">
@@ -33,6 +36,12 @@
   <fieldset><legend>Message :</legend>
     <p><label for="message">Message :</label><textarea id="message" name="message" cols="30" rows="8"></textarea></p>
   </fieldset>
+  <br>
+  <p id=politique> En envoyant ce message vous consentez à la collecte et au traitement des
+    données renseignées ci-dessus pour l'usage exclusif.<p>
+  <p> <blod> En savoir plus </bold> </p>
+
+
   <div style="text-align:center;"><input type="submit" name="envoi" value="Envoyer" /></div>
 </form>
 
