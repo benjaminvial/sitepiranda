@@ -4,12 +4,27 @@
 		margin-right: 0px;
 		margin-bottom: 0px;
 		margin-top:0px;
+		text-decoration:none;
+		color : white;
+		font-family: roboto;
 }
 
 
-.header
+header
 {
     background-image : url('background.jpg');
 	padding-top:391px;
+	font-size : 16px;
+	text-align : center;
+  font-family:'roboto',roboto,sans-serif;
+}
+
+header a {
+  	margin-right: 30px;
+}
+.a{
+position: absolute;
+top: 64px;
+left: 37%;
 
 }

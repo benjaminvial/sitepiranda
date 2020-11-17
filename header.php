@@ -21,14 +21,16 @@
 </head>
 <header>
 <div class="header">
-	    <img class="logopiranda" src="" alt="logo piranda" "width=" " height=" ">
-    	<a href="about.php" title="A propos de moi">A propos de moi</a>
-    	<a href="inspiration.php" title="Mes inspirations">Mes inspirations</a>
-    	<a href="oeuvres.php" title="Mes oeuvres">Mes oeuvres</a>
-    	<a href="contact.php" title="contact">CONTACT</a>
-		  <img class="logo" src="" alt="logo pinterest" "width="" height="">
-      <img class="logo" src="" alt="logo instagram" "width="" height="">
-      <img class="logo" src="" alt="logo vimeo" "width="" height="">
+	    <img class="logopiranda" src="" alt="logo piranda"  width=" " height=" ">
+		<div class="a">
+    	<a  href="about.php" title="A propos de moi">À propos de moi</a>
+    	<a  href="inspiration.php" title="Mes inspirations">Inspirations</a>
+    	<a  href="oeuvres.php" title="Mes oeuvres">Œuvres</a>
+    	<a href="contact.php" title="contact">Contact</a>
+		</div>
+		  <img class="logo" src="" alt="logo pinterest" width="" height="">
+      <img class="logo" src="" alt="logo instagram" width="" height="">
+      <img class="logo" src="" alt="logo vimeo" width="" height="">
 
     <?php wp_page_menu('show_home=1');?>
 
