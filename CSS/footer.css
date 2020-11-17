@@ -1,18 +1,29 @@
+
+/* le wrap a une taille de 80% */
 .wrap{
   width: 80%;
   margin:auto;
 }
 
-footer {
-  background-color: #191F2E;
-  padding: 1em;;
+/* la partie contact a un background different du rest du footer*/
+.contact{
+    background-color: #005570;
+    padding-top:1em;
+    padding-bottom: 1em;
 }
 
-footer .info   {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  border-bottom: 1px solid white;
+.contact p{
+  text-align: center;
+  align-items: center;
+  display: block;
+}
+
+
+footer {
+  background-color: #191F2E;
+  padding-bottom: : 1em;
+  padding-top: 0;
+  margin:auto;
 }
 
 footer h3{
@@ -34,6 +45,23 @@ footer a:visited{
   text-decoration:none;
 }
 
+/* la partie info est composé de trois colonne alignés */
+footer .info   {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-bottom: 1px solid white;
+  padding-top:
+}
+
+footer .info div{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+/*réseau sociaux et copyright*/
 .social_media{
   display: flex;
   flex-direction: row;
@@ -41,14 +69,12 @@ footer a:visited{
   align-items: center;
 }
 
+
+/*Mentions légales*/
 footer  span  {
 color: white;
 align-items: center;
 text-align: center;
 display: block;
 padding-top: 1em;
-}
-
- footer:not(div.wrap){
-  background-color: red
 }

@@ -1,4 +1,15 @@
-nav#menuprincipal {
+*
+{
+		margin-left: 0px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+		margin-top:0px;
+}
 
-  background-image : url('background.jpg');
+
+.header
+{
+    background-image : url('background.jpg');
+	padding-top:391px;
+
 }
