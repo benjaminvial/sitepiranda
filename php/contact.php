@@ -31,10 +31,8 @@
   <fieldset><legend>Message :</legend>
     <p><label for="message">Message :</label><textarea id="message" name="message" cols="30" rows="8"></textarea></p>
   </fieldset>
-
-  <div style="text-align:center;"><input type="submit" name="envoi" value="Envoyer le formulaire !" /></div>
+  <div style="text-align:center;"><input type="submit" name="envoi" value="Envoyer" /></div>
 </form>
-
 
 </div>
 
