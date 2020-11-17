@@ -32,6 +32,7 @@ body{
   flex-direction: column;
   justify-content:center;
   align-items:center;
+  margin-bottom: 8em;
 }
 
 .title img {
@@ -52,6 +53,8 @@ nav {
   flex-direction: row;
   justify-content:space-around;
 }
+
+
 
 a {
 

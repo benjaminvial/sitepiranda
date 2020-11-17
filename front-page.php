@@ -14,17 +14,16 @@
         <img src="<?php echo get_template_directory_uri();?>/pictures/logo/pinterest.svg" alt="Logo Pinterest">
       </div>
     </div>
-<!--ghjk-->
-    <div>
+    <div class="title">
       <img src="<?php echo get_template_directory_uri();?>/pictures/header/texte_front_page/francois_piranda.svg" alt="Ecriture François Piranda">
       <p>artiste</p>
+    </div>
       <nav>
         <a href="#">À propos de moi </a>
         <a href="#">Inspirations</a>
         <a href="#">Œuvres</a>
         <a href="#">Contact</a>
       </nav>
-    </div>
   </div>
 </body>
 
