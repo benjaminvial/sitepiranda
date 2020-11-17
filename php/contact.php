@@ -19,9 +19,9 @@
       <img src="<?php echo get_template_directory_uri();?>/pictures/logo/logo_bleu/instagram.svg" alt="logo instagram" width="" height="">
       <!-- ici il y aura l'insta-->
         <img src="<?php echo get_template_directory_uri();?>/pictures/logo/logo_bleu/viméo.svg" alt="logo vimeo" width="" height="">
-        <!-- ici il y aura l'insta-->
+        <!-- ici il y aura le viméo-->
           <img src="<?php echo get_template_directory_uri();?>/pictures/logo/logo_bleu/pinterest.svg" alt="logo pinterest" width="" height="">
-          <!-- ici il y aura l'insta-->
+          <!-- ici il y aura le pinterest-->
 </div>
 
 <div class="partie bleu">
