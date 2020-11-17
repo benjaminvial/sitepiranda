@@ -28,9 +28,9 @@
     	<a  href="oeuvres.php" title="Mes oeuvres">Œuvres</a>
     	<a href="contact.php" title="contact">Contact</a>
 		</div>
-		  <img class="logo" src="<?php echo get_template_directory_uri();?>/pictures/logo/pinterest.svg" alt="logo pinterest" width="" height="">
-      <img class="logo" src="<?php echo get_template_directory_uri();?>/pictures/logo/insta.svg" alt="logo instagram" width="" height="">
-      <img class="logo" src="<?php echo get_template_directory_uri();?>/pictures/logo/vimeo.svg" alt="logo vimeo" width="" height="">
+		  <img class="logo" src="<?php echo get_template_directory_uri();?>/pictures/logo/pinterest.svg" alt="logo pinterest" width="30" height="30">
+      <img class="logo" src="<?php echo get_template_directory_uri();?>/pictures/logo/insta.svg" alt="logo instagram" width="30" height="30">
+      <img class="logo" src="<?php echo get_template_directory_uri();?>/pictures/logo/vimeo.svg" alt="logo vimeo" width="30" height="30">
 <img class="ecriture" src="pictures/header/Apropos/Titre.svg" alt="ecriture a propos" width="600" height="600">
 
     <?php wp_page_menu('show_home=1');?>
