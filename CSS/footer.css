@@ -1,7 +1,7 @@
 /*style footer général*/
 footer {
   background-color: #191F2E;
-  padding-bottom: : 3em;
+  padding-bottom: 3em;
   padding-top: 0;
   margin:auto;
 }
@@ -30,19 +30,19 @@ footer a:visited{
 }
 
 /* le wrap a une taille de 80% */
-.wrap{
+footer .wrap{
   width: 80%;
   margin:auto;
 }
 
 /* la partie contact a un background different du rest du footer*/
-.contact{
+footer .contact{
     background-color: #005570;
     padding-top:1em;
     padding-bottom: 1em;
 }
 
-.contact p{
+footer .contact p{
   text-align: center;
   align-items: center;
   display: block;
@@ -50,7 +50,7 @@ footer a:visited{
   font-size: 150%;
 }
 
-.contact  p > a{
+footer .contact  p > a{
   text-decoration: underline;
   font-weight: 400;
   font-size: 120%;
@@ -62,7 +62,6 @@ footer .info   {
   flex-direction: row;
   justify-content: space-around;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-
   padding-top:1em;
   padding-bottom: 1em;
 }
@@ -77,20 +76,21 @@ footer .info div{
   align-items: flex-start;
 }
 
-
 /*réseau sociaux et copyright*/
-.social_media{
+footer .social_media{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
   padding-top: 1em;
 }
-.social_media p{
+
+footer .social_media p{
   font-weight:  300;
   font-size: 62%;
 }
-.social_media img{
+
+footer .social_media img{
   width:1em;
   align-items: flex-start;
 }
@@ -103,6 +103,6 @@ text-align: center;
 display: block;
 padding-top: 1em;
 padding-bottom: 1em;
-font-weight:  300;
+font-weight:300;
 font-size: 62%;
 }

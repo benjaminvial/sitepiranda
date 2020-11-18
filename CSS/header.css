@@ -18,7 +18,7 @@ header
 	padding-top:391px;
     background-size: 100%;
 	text-align : center;
-  font-family:'roboto',roboto,sans-serif;
+  font-family:'roboto',sans-serif;
 }
 
 header a {
@@ -37,12 +37,11 @@ left: 37%;
 top: 0px;
 left: 31%;
 }
+/* logo*/
 .logo{
 	display:block;
 	margin-left: auto;
 	margin-right: auto;
-	position: fixed;
-	 z-index: -1; /* pour que ce sois en "arriere plan" */
 	 top: 0; /* on place la division en haut a droite */
 	 right: 0;
 align-items: flex-end;

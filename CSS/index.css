@@ -15,6 +15,5 @@ body{
 
 .social_media{
   width: 8%
-  display: flex;
-  justify-content: space-between;
+  
 }

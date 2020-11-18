@@ -1,7 +1,6 @@
-
 <footer>
   <div class="contact">
-    <p>Envie de suivre mes actualités? <a href=""> Contactez-moi!</a> <p>
+    <p>Envie de suivre mes actualités? <a href="#"> Contactez-moi!</a> <p>
   </div>
   <div class="wrap">
     <div class="info">
@@ -35,7 +34,7 @@
 
     <div class="social_media">
         <p>Copyright © 2020. Tous droits réservés.</p>
-        <div>
+      <div>
         <img src="<?php echo get_template_directory_uri();?>/pictures/logo/pinterest.svg" alt="Logo Pinterest">
         <img src="<?php echo get_template_directory_uri();?>/pictures/logo/insta.svg" alt="Logo Instagram">
         <img src="<?php echo get_template_directory_uri();?>/pictures/logo/vimeo.svg" alt="Logo Vimeo">
