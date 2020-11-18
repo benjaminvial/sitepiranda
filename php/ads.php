@@ -18,10 +18,12 @@ get_header(); ?>
 <div class="wrap">
 	<h1> Amour désir & soupir <h1>
 		<br>
-		<div id="photo">
+		<div class="grid-container">
+			<div class="img">
 	<img src="<?php echo get_template_directory_uri();?>/pictures/ADS/AD&S/clabonne.jpg" alt="logo phone" width="" height="">
 	<img src="<?php echo get_template_directory_uri();?>/pictures/ADS/ADSTIPRINCE/tiprince.jpg" alt="logo phone" width="" height="">
 	<img src="<?php echo get_template_directory_uri();?>/pictures/ADS/gus/gus.png" alt="logo phone" width="" height="">
+</div>
 </div>
 <br>
 <form id="button">

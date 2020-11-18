@@ -8,3 +8,11 @@
   transform: scale(2);
   cursor: zoom-out;
 }
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    ". . .";
+}
