@@ -25,8 +25,8 @@
 </head>
 
   <?php	$imageBanner = get_field('bannerHeader');
-  if( !empty($imageBanner) ):?>
-  <header style="background-image: url(<?php echo $imageBanner['url']; ?>);">
+      if( !empty($imageBanner) ):?>
+      <header style="background-image: url(<?php echo $imageBanner['url']; ?>);">
   <?php endif; ?>
 
 	    <img class="logopiranda" src="<?php echo get_template_directory_uri();?>/pictures/logo/monogramme.svg" alt="logo piranda"  width=" " height=" ">
