@@ -23,7 +23,7 @@
           <img src="<?php echo get_template_directory_uri();?>/pictures/logo/logo_bleu/pinterest.svg" alt="logo pinterest" width="" height="">
           <!-- ici il y aura le pinterest-->
 </div>
-
+<!-- ici nous avons la partie bleu de la page contact-->
 <div class="partie bleu">
   <form id="contact" method="post" action="traitement_formulaire.php">
   <fieldset><legend> Coordonnées</legend>
