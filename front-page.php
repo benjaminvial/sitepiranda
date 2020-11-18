@@ -20,8 +20,8 @@
     </div>
       <nav>
         <a href="#">À propos de moi </a>
-        <a href="#">Inspirations</a>
-        <a href="#">Œuvres</a>
+        <a href="inspirations">Inspirations</a>
+        <a href="oeuvres">Œuvres</a>
         <a href="#">Contact</a>
       </nav>
   </div>
