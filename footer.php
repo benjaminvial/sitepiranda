@@ -44,6 +44,6 @@
         <span>Mentions légales - Crédits</span>
 
   </div>
-<?php wp_footer();?>
+  <?php wp_footer();?>
 </footer>
 </html>
