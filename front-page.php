@@ -1,8 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <link  href="css/front-page.css" rel="stylesheet" type="text/css">
- <?php wp_head();?>
+<?php wp_head();?>
 </head>
 <body>
   <div class="wrap">

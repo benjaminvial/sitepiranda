@@ -1,10 +1,4 @@
 <?php
-
-/**
-* Template Name: Page Inside
-* Description: Page Inside
-*/
-
 get_header(); ?>
 
 <main></main>
@@ -29,6 +23,9 @@ get_header(); ?>
 <form id="button">
 	<input type ="button" value ="Retour aux thématiques" onclick ="history.go(-1)">
 </form>
+</div>
+<div class="retour en haut" >
+<a href="#" class="btn btn-primary" retour en haut ^</a>
 
 
 

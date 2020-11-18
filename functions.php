@@ -17,6 +17,7 @@ function custom_theme_assets() {
     wp_enqueue_style('header-style', get_template_directory_uri().'/css/header.css');
     wp_enqueue_style('reset', get_template_directory_uri().'/css/reset.css');
     wp_enqueue_style('front-page-style', get_template_directory_uri().'/css/front-page.css');
+    wp_enqueue_style('oeuvres-style', get_template_directory_uri().'/css/oeuvres.css');
 }
 add_action( 'wp_enqueue_scripts', 'custom_theme_assets');
 

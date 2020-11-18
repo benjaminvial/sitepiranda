@@ -20,7 +20,7 @@
 <?php wp_head();?>
 </head>
 <header>
-<div class="header">
+
 	    <img class="logopiranda" src="<?php echo get_template_directory_uri();?>/pictures/logo/monogramme.svg" alt="logo piranda"  width=" " height=" ">
 		<div class="a">
     	<a  href="about.php" title="A propos de moi">À propos de moi</a>
@@ -28,14 +28,14 @@
     	<a  href="oeuvres.php" title="Mes oeuvres">Œuvres</a>
     	<a href="contact.php" title="contact">Contact</a>
 		</div>
-		  <img class="logo" src="<?php echo get_template_directory_uri();?>/pictures/logo/pinterest.svg" alt="logo pinterest" width="30" height="30">
-      <img class="logo" src="<?php echo get_template_directory_uri();?>/pictures/logo/insta.svg" alt="logo instagram" width="30" height="30">
-      <img class="logo" src="<?php echo get_template_directory_uri();?>/pictures/logo/vimeo.svg" alt="logo vimeo" width="30" height="30">
+      <img class="logoa" src="<?php echo get_template_directory_uri();?>/pictures/logo/vimeo.svg" alt="logo vimeo" width="30" height="30">
+      <img class="logob" src="<?php echo get_template_directory_uri();?>/pictures/logo/insta.svg" alt="logo instagram" width="30" height="30">
+      <img class="logoc" src="<?php echo get_template_directory_uri();?>/pictures/logo/pinterest.svg" alt="logo pinterest" width="30" height="30">
+
 <img class="ecriture" src="pictures/header/Apropos/Titre.svg" alt="ecriture a propos" width="600" height="600">
 
     <?php wp_page_menu('show_home=1');?>
 
-  </div>
 
 <h1> <?php bloginfo('name');?> </h1>
 <h2><?php bloginfo('description');?><h2>
