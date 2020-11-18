@@ -2,7 +2,7 @@
 /**
  * Template Name: Oeuvre
  */
-get_header();?>
+get_header('oeuvre');?>
 <h1>Oeuvre</h1>
 <section>
   <!--The Loop (la boucle)-->
