@@ -23,7 +23,10 @@ get_header(); ?>
 	<img src="<?php echo get_template_directory_uri();?>/pictures/ADS/ADSTIPRINCE/tiprince.jpg" alt="logo phone" width="" height="">
 	<img src="<?php echo get_template_directory_uri();?>/pictures/ADS/gus/gus.png" alt="logo phone" width="" height="">
 </div>
-
+<br>
+<form id="button">
+	<input type ="button" value ="Retour aux thématiques" onclick ="history.go(-1)">
+</form>
 
 
 
