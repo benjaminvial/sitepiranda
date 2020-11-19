@@ -49,7 +49,7 @@
  </div>
 
 	 <div>
-      <img src="<?php echo get_template_directory_uri();?>/pictures/header/Apropos/titre.svg" alt="ecriture a propos" width="" height="">
+      <img src="<?php echo get_template_directory_uri();?>/pictures/header/Inspirations/titre-inspiration.svg" alt="ecriture a propos" width="" height="">
 	 </div>
 
 </header>

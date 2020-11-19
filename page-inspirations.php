@@ -1,4 +1,4 @@
-<?php get_header();?>
+<?php get_header('inspirations');?>
 <body>
   <div class="wrap">
 		<div class="textes">

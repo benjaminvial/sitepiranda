@@ -3,7 +3,7 @@
  * Template Name: Oeuvre
  */
 get_header('oeuvre');?>
-<h1>Oeuvre</h1>
+
 <section>
   <!--The Loop (la boucle)-->
 <?php if( have_posts() ) :

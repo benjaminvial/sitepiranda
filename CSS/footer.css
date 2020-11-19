@@ -29,13 +29,14 @@ footer a:visited{
   text-decoration:none;
 }
 
+
 /* le wrap a une taille de 80% */
 footer .wrap{
   width: 85%;
   margin:auto;
 }
 
-/* la partie contact a un background different du rest du footer*/
+/* la partie contact a un background different du reste du footer*/
 footer .contact{
     background-color: #005570;
     padding-top:1em;
@@ -61,7 +62,7 @@ footer .info   {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items:stretch;
+  align-items:center;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   padding-top:1em;
   padding-bottom: 1em;

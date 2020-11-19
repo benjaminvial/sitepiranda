@@ -1,4 +1,4 @@
-<?php get_header();?>
+<?php get_header('contact');?>
 <body>
   <div class="wrap_body">
 

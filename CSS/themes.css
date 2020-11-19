@@ -5,7 +5,7 @@ body{
 .wrap {
 	width: 60%;
 	margin: auto;
-	background-image: url(ligne.svg);
+	background-image: url('../pictures/inspirations/ligne.svg');
 	background-repeat: no-repeat;
 }
 

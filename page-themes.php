@@ -1,11 +1,5 @@
-<?php get_header();
-$theme_name=get_field('nom_theme');
-$img_theme=get_field('img_theme');
-$text_theme=get_field('description_theme');
-$keyword=get_field('description_theme');
-
-
-
+<?php
+ get_header();
 ?>
 <main>
   <div class="wrap">
@@ -90,6 +84,6 @@ $keyword=get_field('description_theme');
 		</div>
 	</div>
 
-  
-</main>
-  <?php get_footer();?>
+
+  </main>
+<?php get_footer();?>

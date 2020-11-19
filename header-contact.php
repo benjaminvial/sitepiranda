@@ -36,5 +36,5 @@
   		      <img  src="<?php echo get_template_directory_uri();?>/pictures/logo/pinterest.svg" width="30" height="30">
        </div>
   </div>
-      <img src="<?php echo get_template_directory_uri();?>/pictures/header/Apropos/titre_oeuvre.svg" alt="ecriture manuscrite du titre de la page" width="600" height="400">
+      <img src="<?php echo get_template_directory_uri();?>/pictures/header/Contact/titre-contact.svg" alt="ecriture manuscrite du titre de la page" width="600" height="400">
 </header>

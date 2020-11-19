@@ -1,6 +1,6 @@
 body{
 	font-family: Roboto;
-	background-image: url(pictures/inspirations/ligne.svg);
+	background-image: url('../pictures/inspirations/ligne.svg');
 	background-repeat: no-repeat;
 }
 

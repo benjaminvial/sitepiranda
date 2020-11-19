@@ -3,14 +3,13 @@
  * Template Name: themes
  */
 
-get_header();
+get_header('themes');
 $theme_name=get_field('nom_theme');
 $img_theme=get_field('img_theme');
 $text_theme=get_field('description_theme');
 $keyword=get_field('description_theme');
 
 ?>
-<h1> Oeuvres</h1>
 <main>
   <div class="wrap">
 		<div class="theme">
@@ -93,6 +92,46 @@ $keyword=get_field('description_theme');
 			</div>
 		</div>
 
-	</div>
+
+
+      <?php
+        // Check rows exists.
+        if( have_rows('nouveau_theme') ):?>
+
+  <?php    // Loop through rows.
+      while( have_rows('nouveau_theme') ) : the_row();
+          // Load sub field value.
+          $name = get_sub_field('nom_theme');
+          $image = get_sub_field('image_theme');
+          $text = get_sub_field('description_theme');
+          $keyword = get_sub_field('keyword');
+  ?>
+    <?php echo'
+    <div class="themereverse">
+      <div>
+        <div>
+          <img src="'.$image['url'].'">
+          <div>
+          </div>
+        </div>
+        <h2>'.$keyword.'</h2>
+      </div>
+      <div class="texte">
+        <h3>'.$name.'</h3>
+        <p>'.$text.'</p>
+        <a href="#">découvrir les œuvres</a>
+      </div>
+    </div>';
+    ?>
+    <?php
+        // End loop.
+        endwhile;
+
+    // No value.
+    else :
+
+    endif;
+    ?>
+</div>
 </main>
   <?php get_footer();?>
