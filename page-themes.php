@@ -1,5 +1,4 @@
 <?php get_header();?>
-<h1> Oeuvres</h1>
 <section>
   <div class="wrap">
 		<div class="theme">
