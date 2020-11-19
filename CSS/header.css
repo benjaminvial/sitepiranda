@@ -32,6 +32,7 @@ header .top{
 	justify-content: space-between;
 	width:85%;
 	align-items: center;
+	padding-top: 1em;
 }
 
 /* Menu*/
@@ -50,4 +51,9 @@ header div:first-of-type img{
 /*logo*/
 header div:nth-of-type(3) img{
   margin-left: 15px;
+}
+
+header img{
+width: 30%;
+
 }

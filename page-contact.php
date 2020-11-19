@@ -22,19 +22,19 @@
   </div>
 
   <div class="info">
-     <img src="<?php echo get_template_directory_uri();?>/pictures/logo/logo_bleu/instagram.svg" alt="logo instagram" width="" height="">
+     <img src="<?php echo get_template_directory_uri();?>/pictures/logo/logo_bleu/insta.svg" alt="logo instagram" width="" height="">
      <span> instagram </span>
   </div>
 
 
   <div class="info">
-      <img  src="<?php echo get_template_directory_uri();?>/pictures/logo/logo_bleu/viméo.svg" alt="logo vimeo" width="" height="">
+      <img  src="<?php echo get_template_directory_uri();?>/pictures/logo/logo_bleu/vimeo.svg" alt="logo vimeo" width="" height="">
      <span> viméo </span>
   </div>
 
 
      <div class="info">
-       <img src="<?php echo get_template_directory_uri();?>/pictures/logo/logo_bleu/pinterest.svg">
+       <img src="<?php echo get_template_directory_uri();?>/pictures/logo/logo_bleu/Pinterest.svg">
        <span> pinterest </span>
   </div>
   </div>

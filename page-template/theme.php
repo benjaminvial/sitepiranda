@@ -1,12 +1,16 @@
-<?php get_header();
+<?php
+/**
+ * Template Name: themes
+ */
+
+get_header();
 $theme_name=get_field('nom_theme');
 $img_theme=get_field('img_theme');
 $text_theme=get_field('description_theme');
 $keyword=get_field('description_theme');
 
-
-
 ?>
+<h1> Oeuvres</h1>
 <main>
   <div class="wrap">
 		<div class="theme">
@@ -88,8 +92,7 @@ $keyword=get_field('description_theme');
 				<h2>onirique</h2>
 			</div>
 		</div>
-	</div>
 
-  
+	</div>
 </main>
   <?php get_footer();?>

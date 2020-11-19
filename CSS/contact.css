@@ -1,8 +1,5 @@
-html {font-size: 62.5%;}
-		body:not(footer,header) {
+		body {
 			margin:0;
-			background:#F1EFE2;
-			font-size: 2em;
 		}
 
 /*ici vous pourrez retrouver tous les inputs*/
@@ -30,7 +27,7 @@ fieldset input[type=text]{
 	width:40%;
 	padding-bottom: 70px;
 	padding-top:50px;
-
+}
 textarea{
  background-color: #005570;
   border:none;
@@ -133,17 +130,20 @@ color:#005570;
 	background-color: #fff;
 	margin-left:50px;
 	display: block;
-
-
+	border: 1px solid #005570;
 }
 #bleu{
-		margin-right: 50px;;
+	border: 1px solid #005570;
+	margin-right: 50px;;
 	width: 50%;
 	height:700px;
 	background-color:#005570;
 	display:block;
 }
-.wrap{
+.wrap_body{
+	margin-top: 1em;
 	display: flex;
+	margin: auto;
+	width: 85%;
 
 }
