@@ -1,56 +1,57 @@
 *
 {
+	    margin: 0px;
 		font-family: roboto;
 }
-header a{
-		text-decoration:none;
-		color : white;
-}
-header a:visited{
-		text-decoration:none;
-		color : white;
-}
 
+a{
+		text-decoration:none;
+		color : white;
+}
+a:visited{
+		text-decoration:none;
+}
 header
 {
+    background-image : url('../pictures/header/Apropos/Rectangle.jpg');
 	background-repeat:no-repeat;
-	padding-top:391px;
-    background-size: 100%;
+  background-size: 100%;
 	text-align : center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+header div {
+	display: flex;
+	flex-direction: row;
 }
 
-header a {
-  	margin-right: 30px;
-}
-.a{
-position: absolute;
-top: 64px;
-left: 37%;
-
+.top{
+	justify-content: space-between;
+	width:85%;
+	align-items: center;
 }
 
-.ecriture
-{
-position: absolute;
-top: 10px;
-left: 31%;
+/* Menu*/
+header div:nth-of-type(2){
+display: block;
+text-align: center;
+align-items: center;
 }
 
-.logoa{
-margin-left: 370px;
+/*ecriture*/
+header div:nth-of-type(2) img{
+
 
 }
 
-.logob{
-margin-left: 15px;
+/* image logo piranda*/
+header div:first-of-type img{
 
 }
 
-.logoc{
-margin-left: 15px;
-
-}
-.logopiranda{
-
-margin-right: 80%;
+/*logo*/
+header div:nth-of-type(3) img{
+  margin-left: 15px;
 }
