@@ -4,11 +4,11 @@
 		font-family: roboto;
 }
 
-a{
+header a{
 		text-decoration:none;
 		color : white;
 }
-a:visited{
+header a:visited{
 		text-decoration:none;
 }
 header
@@ -22,33 +22,29 @@ header
   justify-content: space-between;
   align-items: center;
 }
+
 header div {
 	display: flex;
 	flex-direction: row;
 }
 
-.top{
+header .top{
 	justify-content: space-between;
 	width:85%;
 	align-items: center;
 }
 
 /* Menu*/
-header div:nth-of-type(2){
-display: block;
-text-align: center;
-align-items: center;
+header div:nth-of-type(2) a{
+margin-left: 15px;
 }
 
 /*ecriture*/
 header div:nth-of-type(2) img{
-
-
 }
 
 /* image logo piranda*/
 header div:first-of-type img{
-
 }
 
 /*logo*/

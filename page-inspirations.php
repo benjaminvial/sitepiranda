@@ -1,5 +1,5 @@
 <?php get_header();?>
-<section>
+<body>
   <div class="wrap">
 		<div class="textes">
 			<h2>artistes</h2>
@@ -71,21 +71,6 @@
 		<img src="<?php echo get_template_directory_uri();?>/pictures/inspirations/citation.svg">
 		</div>
 	</div>
-  <?php
-  $categorie= get_category_by_slug("artiste");
-  $args = array('posts_per_page'   => -1,
-                'category'         => $categorie->term_id,
-                'orderby'          => 'name',
-                'order'            => 'ASC',
-                 );
-                $posts = get_posts($args);
-                foreach ( $posts as $post ) : setup_postdata( $post ); ?>
-        <li>
-            <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
 
-            <div><?php the_content(); ?></div>
-        </li>
-    <?php endforeach;
-    wp_reset_postdata();?>
-</section>
+</body>
   <?php get_footer();?>
