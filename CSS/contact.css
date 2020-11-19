@@ -1,0 +1,141 @@
+html {font-size: 62.5%;}
+		body {
+			margin:0;
+			padding:10px 50px;
+			background:#F1EFE2;
+			font-size: 2em;
+		}
+
+/*ici vous pourrez retrouver tous les inputs*/
+
+input[type=submit]{
+background-color:#fff;
+padding-left:70px;
+padding-right: 70px;
+padding-top:10px;
+padding-bottom:10px;
+}
+
+input[type=text]{
+  background-color: #005570;
+  border:none;
+  border-bottom: 1px solid rgba(255,255,255,0.5);
+  color: rgba(255,255,255,0.5);
+  padding-bottom: 4px;
+}
+
+textarea{
+ background-color: #005570;
+  border:none;
+  border-bottom: 1px solid rgba(255,255,255,0.5);
+  color: rgba(255,255,255,0.5);
+  padding-bottom: 4px;
+
+}
+/* ici nous pouvons trouver les styles pour le textes*/
+h1{
+font-family: 'Roboto';
+margin-left:10%;
+font-size: 36px;
+line-height: 15px;
+font-weight:500;
+}
+p{
+font-family: 'Roboto';
+color:#fff;
+}
+
+#gg{
+margin-left: 10%;
+font-family:'Roboto';
+font-weight: 300;
+font-size: 16px;
+color: #000;
+}
+
+
+
+fieldset{
+font-family: 'Roboto';
+color:#fff;
+border:0px;
+}
+
+
+#info{
+margin-left: 20%;
+font-family: 'Roboto';
+font-size: 16px;
+line-height: 16px;
+font-weight: 300;
+}
+
+#politique{
+text-align: center;
+font-size:11px;
+font-family: 'Roboto';
+font-weight: 100;
+color:#fff;
+}
+
+#esp{
+text-align: center;
+font-size:12px;
+text-decoration-line: underline;
+font-family: 'Roboto';
+font-weight: 300;
+color:#fff;
+
+
+}
+
+ div.infos {
+display: flex;
+flex-direction: column;
+margin-left: 10px;
+}
+/*mise en forme logo et textes*/
+
+div.infos div.info {
+display: flex;
+padding: 25px;
+margin-left: 20px;
+}
+
+div.infos div.info img {
+display: block;
+width: 25px;
+					}
+
+
+div.infos div.info span {
+align-self: center;
+margin-left: 20px;
+font-family:'Roboto';
+font-size: 24px;
+line-height: 0px;
+font-weight: 300;
+color:#005570;
+
+}
+/* Création des blocks  de la page contact*/
+
+.blanche{
+	width: 50%;
+	height:700px;
+	background-color: #fff;
+
+	display: block;
+
+
+}
+#bleu{
+	width: 50%;
+	height:700px;
+	background-color:#005570;
+	display:block;
+}
+.wrap{
+	display: flex;
+
+}
