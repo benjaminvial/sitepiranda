@@ -22,6 +22,14 @@ fieldset input[type=text]{
   color: rgba(255,255,255,0.5);
   padding-bottom: 4px;
 }
+.table{
+	display:table;
+}
+.table p{
+	display: table-cell;
+	width:40%;
+	padding-bottom: 70px;
+	padding-top:50px;
 
 textarea{
  background-color: #005570;

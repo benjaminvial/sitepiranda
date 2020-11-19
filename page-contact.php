@@ -44,11 +44,16 @@
   <!-- ici nous avons la partie bleu de la page contact-->
   <div id="bleu">
     <form id="contact" method="post" action="traitement_formulaire.php">
-    <fieldset><legend> Coordonnées</legend>
+    <fieldset>
+       <div class="table"> <!--cette div est utiliser pour aligner les éléments du formulaire-->
       <p><label for="nom">Nom :</label><input type="text" id="nom" name="nom" /></p>
       <p><label for="prenom">Prénom :</label><input type="text" id="prénom" name="prénom" /></p>
+
+    </div>
+     <div class="table"> <!--cette div est utiliser pour aligner les éléments du formulaire-->
       <p><label for="email">Email :</label><input type="text" id="email" name="email" /></p>
         <p><label for="phone">Téléphone :</label><input type="text" id="phone" name="phone" /></p>
+      </div>
     </fieldset>
 
     <fieldset><legend>Message :</legend>
