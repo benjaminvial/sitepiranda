@@ -1,0 +1,83 @@
+body{
+	font-family: Roboto;
+	background-image: url(ligne.svg);
+	background-repeat: no-repeat;
+}
+
+.wrap {
+	width: 70%;
+	margin: auto;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: 700;
+	color: #005570;
+	letter-spacing: 13px;
+}
+
+.textes {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 30px;
+}
+
+.textes span {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	width:65%;
+	font-size: 16px;
+	font-weight: 400;
+	margin-top: 25px;
+	margin-bottom: 50px;
+}
+
+h3{
+	font-size: 16px;
+	color: #62AAC1;
+
+}
+
+.artistes {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	text-align:center;
+}
+
+.artistes > div{
+	width: calc(100% / 3);
+	max-width: 280px;
+}
+
+.artistes > div div {
+	position: relative;
+}
+
+.artistes > div div p {
+	position: absolute;
+	top: 50%;
+	left: 16px;
+	right: 6px;
+	margin: auto;
+	transform: translateY(-50%);
+	color: white;
+	text-transform: uppercase;
+	font-size: 30px;
+	letter-spacing: 10px;
+	font-weight: 500;
+}
+
+.artistes p {
+	color: #62AAC1;
+}
+
+.citation {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
