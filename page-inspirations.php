@@ -68,7 +68,7 @@
 		</div>
 
 		<div class="citation">
-		<img src="citation.svg">
+		<img src="<?php echo get_template_directory_uri();?>/pictures/inspirations/citation.svg">
 		</div>
 	</div>
   <?php
