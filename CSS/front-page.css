@@ -40,6 +40,7 @@ body{
 }
 
 p {
+  color: white;
   text-transform: uppercase;
   margin-top: 1%;
   margin-bottom: 10%;
@@ -52,4 +53,13 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content:space-around;
+}
+
+a{
+  color:white;
+  text-decoration: none;
+}
+a:visited{
+  color:white;
+  text-decoration: none;
 }
