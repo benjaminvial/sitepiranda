@@ -26,7 +26,7 @@
           <p>Pour rester au courant de mes projets !</p>
           <form class="" action="index.html" method="post">
             <input type="text" name="newsletter" value="Adresse mail">
-            <input type="submit" value="Envoyer">
+            <input type="submit" value=">">
           </form>
         </div>
 

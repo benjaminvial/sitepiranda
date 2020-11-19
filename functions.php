@@ -17,7 +17,10 @@ function custom_theme_assets() {
     wp_enqueue_style('header-style', get_template_directory_uri().'/css/header.css');
     wp_enqueue_style('reset-style', get_template_directory_uri().'/css/reset.css');
     wp_enqueue_style('oeuvres-style', get_template_directory_uri().'/css/oeuvres.css');
+
+    //si on est sur la home page
     if(is_home('')){
+    //on charge le style front-page.css
       wp_enqueue_style('front-page-style', get_template_directory_uri().'/css/front-page.css');
     }
 }

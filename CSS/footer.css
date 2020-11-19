@@ -1,7 +1,7 @@
 /*style footer général*/
 footer {
   background-color: #191F2E;
-  padding-bottom: 3em;
+  padding-bottom: 1em;
   padding-top: 0;
   margin:auto;
 }
@@ -31,7 +31,7 @@ footer a:visited{
 
 /* le wrap a une taille de 80% */
 footer .wrap{
-  width: 80%;
+  width: 85%;
   margin:auto;
 }
 
@@ -61,6 +61,7 @@ footer .info   {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items:stretch;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   padding-top:1em;
   padding-bottom: 1em;
@@ -76,13 +77,34 @@ footer .info div{
   align-items: flex-start;
 }
 
+/* Newsletter*/
+input[type=submit]{
+  background-color: #005570;
+  border-radius: 0 35% 35% 0;
+  border:none;
+  width:41px;
+  height:30px;
+  color: white;
+}
+
+input[type=text]{
+  background-color: #191F2E;
+  border:none;
+  border-bottom: 1px solid rgba(255,255,255,0.5);
+  color: rgba(255,255,255,0.5);
+  padding-bottom: 4px;
+
+}
+
 /*réseau sociaux et copyright*/
 footer .social_media{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   padding-top: 1em;
+  padding-right: 10%;
+  padding-left: 10%;
 }
 
 footer .social_media p{
@@ -97,7 +119,7 @@ footer .social_media img{
 
 /*Mentions légales*/
 footer  span  {
-color: white;
+color: rgba(255,255,255,0.5);
 align-items: center;
 text-align: center;
 display: block;

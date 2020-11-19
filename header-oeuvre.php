@@ -31,10 +31,6 @@
       <img class="logob" src="<?php echo get_template_directory_uri();?>/pictures/logo/insta.svg" alt="logo instagram" width="30" height="30">
       <img class="logoc" src="<?php echo get_template_directory_uri();?>/pictures/logo/pinterest.svg" alt="logo pinterest" width="30" height="30">
 
-
-    <?php wp_page_menu('show_home=1');?>
-
-
 <h1> <?php bloginfo('name');?> </h1>
 <h2><?php bloginfo('description');?><h2>
 </header>
