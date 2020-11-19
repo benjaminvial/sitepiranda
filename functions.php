@@ -22,6 +22,10 @@ function custom_theme_assets() {
     wp_enqueue_style('page-inspirations', get_template_directory_uri().'/css/inspirations.css');
   }
 
+    if(is_page('themes')){
+      wp_enqueue_style('page-themes-style', get_template_directory_uri().'/css/themes.css');
+    }
+
     //si on est sur la home page
     if(is_home('')){
     //on charge le style front-page.css
