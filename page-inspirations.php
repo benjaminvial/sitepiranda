@@ -9,7 +9,7 @@
 		<div class="artistes">
 			<div>
 				<div>
-					<img src="1.jpg" alt="">
+					<img src="<?php echo get_template_directory_uri();?>/pictures/inspirations/auguste_forestier.jpg" alt="">
 					<p>auguste forestier</p>
 				</div>
 				<h3>Sculpture d'un soldat</h3>
@@ -18,7 +18,7 @@
 
 			<div>
 				<div>
-					<img src="2.jpg" alt="">
+					<img src="<?php echo get_template_directory_uri();?>/pictures/inspirations/pierre_avezard.jpg" alt="">
 					<p>pierre avezard</p>
 				</div>
 				<h3>Le Manège</h3>
@@ -27,7 +27,7 @@
 
 			<div>
 				<div>
-					<img src="3.jpg" alt="">
+					<img src="<?php echo get_template_directory_uri();?>/pictures/inspirations/rebecca_horn.jpg" alt="">
 					<p>rebecca horn</p>
 				</div>
 				<h3>Achim Thode</h3>
@@ -42,7 +42,7 @@
 		<div class="artistes">
 			<div>
 				<div>
-					<img src="4.jpg" alt="">
+					<img src="<?php echo get_template_directory_uri();?>/pictures/inspirations/joseph_cornell.jpg" alt="">
 					<p>joseph cornell</p>
 				</div>
 				<h3>Tilly Losch</h3>
@@ -51,7 +51,7 @@
 
 			<div>
 				<div>
-					<img src="5.jpg" alt="">
+					<img src="<?php echo get_template_directory_uri();?>/pictures/inspirations/emile_ratier.jpg" alt="">
 					<p>émile ratier</p>
 				</div>
 				<h3>Sculpture </h3>
@@ -60,7 +60,7 @@
 
 			<div>
 				<div>
-					<img src="6.jpg" alt="">
+					<img src="<?php echo get_template_directory_uri();?>/pictures/inspirations/francis_marshall.jpg" alt="">
 					<p>francis marshall</p>
 				</div>
 				<h3>Illustration</h3>
