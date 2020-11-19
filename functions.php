@@ -17,7 +17,7 @@ function custom_theme_assets() {
     wp_enqueue_style('header-style', get_template_directory_uri().'/css/header.css');
     wp_enqueue_style('reset-style', get_template_directory_uri().'/css/reset.css');
     wp_enqueue_style('oeuvres-style', get_template_directory_uri().'/css/oeuvres.css');
-    wp_enqueue_style('page-inspirations', get_template_directory_uri().'/css/inspiration.css');
+    wp_enqueue_style('page-inspirations', get_template_directory_uri().'/css/inspirations.css');
 
 
     //si on est sur la home page
