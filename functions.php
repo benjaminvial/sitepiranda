@@ -21,11 +21,15 @@ function custom_theme_assets() {
     if(is_page('inspirations')){
     wp_enqueue_style('page-inspirations', get_template_directory_uri().'/css/inspirations.css');
   }
-  
+
     //si on est sur la home page
     if(is_home('')){
     //on charge le style front-page.css
       wp_enqueue_style('front-page-style', get_template_directory_uri().'/css/front-page.css');
+    }
+
+    if(is_page('contact')){
+      wp_enqueue_style('contact', get_template_directory_uri().'/css/contact.css');
     }
 }
 add_action( 'wp_enqueue_scripts', 'custom_theme_assets');

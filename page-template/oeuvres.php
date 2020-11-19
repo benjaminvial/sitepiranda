@@ -15,5 +15,6 @@ get_header('oeuvre');?>
 </article>
 <?php endwhile;else:?>
  <?php endif; ?>
+
 </section>
   <?php get_footer();?>

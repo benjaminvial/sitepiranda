@@ -14,6 +14,7 @@
             <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
             <div><?php the_content(); ?></div>
         </li>
+
     <?php endforeach;
     wp_reset_postdata();?>
 </section>

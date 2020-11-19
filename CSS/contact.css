@@ -1,14 +1,13 @@
 html {font-size: 62.5%;}
-		body {
+		body:not(footer,header) {
 			margin:0;
-			padding:10px 50px;
 			background:#F1EFE2;
 			font-size: 2em;
 		}
 
 /*ici vous pourrez retrouver tous les inputs*/
 
-input[type=submit]{
+fieldset input[type=submit]{
 background-color:#fff;
 padding-left:70px;
 padding-right: 70px;
@@ -16,7 +15,7 @@ padding-top:10px;
 padding-bottom:10px;
 }
 
-input[type=text]{
+fieldset input[type=text]{
   background-color: #005570;
   border:none;
   border-bottom: 1px solid rgba(255,255,255,0.5);
@@ -124,12 +123,13 @@ color:#005570;
 	width: 50%;
 	height:700px;
 	background-color: #fff;
-
+	margin-left:50px;
 	display: block;
 
 
 }
 #bleu{
+		margin-right: 50px;;
 	width: 50%;
 	height:700px;
 	background-color:#005570;
