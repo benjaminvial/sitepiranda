@@ -78,7 +78,7 @@ footer .info div{
 }
 
 /* Newsletter*/
-input[type=submit]{
+footer input[type=submit]{
   background-color: #005570;
   border-radius: 0 35% 35% 0;
   border:none;
@@ -87,7 +87,7 @@ input[type=submit]{
   color: white;
 }
 
-input[type=text]{
+footer input[type=text]{
   background-color: #191F2E;
   border:none;
   border-bottom: 1px solid rgba(255,255,255,0.5);

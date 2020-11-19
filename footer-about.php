@@ -1,4 +1,7 @@
 <footer>
+  <div class="contact">
+    <p>Envie de suivre mes actualités? <a href="#"> Contactez-moi!</a> <p>
+  </div>
   <div class="wrap">
     <div class="info">
       <div>

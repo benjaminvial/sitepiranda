@@ -19,7 +19,7 @@
         <a href="#">À propos de moi </a>
         <a href="inspirations">Inspirations</a>
         <a href="oeuvres">Œuvres</a>
-        <a href="#">Contact</a>
+        <a href="contact">Contact</a>
       </nav>
   </div>
 </body>

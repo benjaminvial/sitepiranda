@@ -73,4 +73,4 @@
 	</div>
 
 </body>
-  <?php get_footer();?>
+  <?php get_footer('about');?>
