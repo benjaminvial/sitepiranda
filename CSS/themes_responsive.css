@@ -1,8 +1,5 @@
 @media screen and (max-width: 1024px) {
-  body{
-  	font-family: Roboto;
-  		background-image: url('../pictures/inspirations/ligne.svg');
-  			background-repeat: repeat-y;
+
   }
 
   .wrap {
@@ -11,9 +8,6 @@
   }
 
   .theme, .themereverse {
-  	display: flex;
-  	justify-content: space-between;
-  	align-items: flex-start;
   	margin-top: 5%;
   }
 
@@ -25,13 +19,7 @@
   	max-width: 55%;
   }
 
-  .themereverse > div > div {
-  	position: relative;
-  }
-
   .themereverse > div > div div {
-  	background-color: #005570;
-  	position: absolute;
   	top: 10%;
   	right: 0%;
   	margin: auto;
@@ -40,14 +28,7 @@
   	z-index: -1;
   }
 
-  .image > div {
-  	position: relative;
-  	display: flex;
-  }
-
   .image > div div {
-  	background-color: #005570;
-  	position: absolute;
   	top: 10%;
   	margin: auto;
   	height: 80%;
@@ -118,124 +99,10 @@
  }
 @media screen and (max-width: 768px) {
 
-}body{
-	font-family: Roboto;
-		background-image: url('../pictures/inspirations/ligne.svg');
-			background-repeat: repeat-y;
-}
-
-.wrap {
-	width: 60%;
-	margin: auto;
-}
-
-.theme, .themereverse {
-	display: flex;
-	justify-content: space-between;
-	align-items: flex-start;
-	margin-top: 5%;
-}
-
-.theme > div {
-	max-width: 55%;
-}
-
-.texte {
-	max-width: 55%;
-}
-
-.themereverse > div > div {
-	position: relative;
-}
-
-.themereverse > div > div div {
-	background-color: #005570;
-	position: absolute;
-	top: 10%;
-	right: 0%;
-	margin: auto;
-	height: 80%;
-	width: 315px;
-	z-index: -1;
-}
-
-.image > div {
-	position: relative;
-	display: flex;
-}
-
-.image > div div {
-	background-color: #005570;
-	position: absolute;
-	top: 10%;
-	margin: auto;
-	height: 80%;
-	width: 315px;
-	z-index: -1;
-}
-
-.theme h3, .theme .boutondroite {
-	font-size: 24px;
-	font-weight: 700;
-	text-align: right;
-	margin-bottom: 10%;
-}
-
-.themereverse h3 {
-	font-size: 24px;
-	font-weight: 700;
-	text-align: left;
-	margin-bottom: 10%;
-}
-
-main p {
-	text-align: justify;
-	margin-bottom: 10%;
-}
-
-.boutondroite {
-	text-align: right;
-}
-
-.theme h2 {
-	font-size: 34px;
-	font-weight: 700;
-	letter-spacing: 13px;
-	text-transform: uppercase;
-	color: #62AAC1;
-}
-
-.themereverse h2 {
-	font-size: 34px;
-	font-weight: 700;
-	letter-spacing: 13px;
-	text-transform: uppercase;
-	color: #62AAC1;
-	text-align: right;
-}
-
-main a {
-	font-size: 16px;
-	font-weight: 700;
-	text-transform: uppercase;
-	text-decoration: none;
-	color: black;
-	border:2px solid black;
-	padding-right: 10%;
-	padding-left: 10%;
-	padding-top: 2%;
-	padding-bottom: 2%;
-	text-align: right;
-}
-
-main a:visited{
-	color: black;
-}
-
 
 @media screen and (max-width: 480px) {
 
- }body{
+ body{
  	font-family: Roboto;
  		background-image: url('../pictures/inspirations/ligne.svg');
  			background-repeat: repeat-y;
@@ -348,3 +215,4 @@ main a:visited{
  main a:visited{
  	color: black;
  }
+}
