@@ -49,6 +49,10 @@
 
  </div>
 
-  </div>
-      <img src="<?php echo get_template_directory_uri();?>/pictures/header/Apropos/titre_oeuvre.svg" alt="ecriture manuscrite du titre de la page" width="600" height="400">
+	 <div>
+      <img src="<?php echo get_template_directory_uri();?>/pictures/header/Inspirations/titre-oeuvre.svg" alt="ecriture a propos" width="" height="">
+	 </div>
+   <div class="hamburger">
+      <img src="<?php echo get_template_directory_uri();?>/pictures/header/hamburger/Group.svg" alt="hamburger" width="" height="">
+	 </div>
 </header>

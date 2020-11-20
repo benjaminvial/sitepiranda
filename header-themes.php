@@ -52,5 +52,7 @@
 	 <div>
       <img src="<?php echo get_template_directory_uri();?>/pictures/themes/titre-themes.svg" alt="ecriture a propos" width="" height="">
 	 </div>
-
+   <p class="hamburger">
+      <img src="<?php echo get_template_directory_uri();?>/pictures/header/hamburger/Group.svg" alt="hamburger" width="" height="">
+	 </p>
 </header>

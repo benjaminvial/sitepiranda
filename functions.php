@@ -18,6 +18,7 @@ function custom_theme_assets() {
     wp_enqueue_style('reset-style', get_template_directory_uri().'/css/reset.css');
     wp_enqueue_style('oeuvres-style', get_template_directory_uri().'/css/oeuvres.css');
     wp_enqueue_style('footer-responsive', get_template_directory_uri().'/css/footer_responsive.css');
+    wp_enqueue_style('header-responsive', get_template_directory_uri().'/css/header_responsive.css');
     //si on est sur la page theme
     if(is_page('inspirations')){
     //on charge le style themes.css

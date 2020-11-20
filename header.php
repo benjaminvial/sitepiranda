@@ -22,7 +22,7 @@
 <header style="background-image:url('<?php echo $imageBanner['url'];?>');">
 <div class="top">
   <div>
-  <a href=""  title="retour à l'index">
+  <a href="index"  title="retour à l'index">
 	   <img src="<?php echo get_template_directory_uri();?>/pictures/logo/monogramme.svg" alt="logo piranda"  width=" " height=" ">
 	   </a>
   </div>
@@ -52,5 +52,8 @@
 	 <div>
       <img src="<?php echo get_template_directory_uri();?>/pictures/header/Apropos/titre.svg" alt="ecriture a propos" width="" height="">
 	 </div>
+   <p class="hamburger">
+      <img src="<?php echo get_template_directory_uri();?>/pictures/header/hamburger/Group.svg" alt="hamburger" width="" height="">
+	 </p>
 
 </header>

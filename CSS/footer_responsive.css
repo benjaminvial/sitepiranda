@@ -171,7 +171,6 @@ footer input[type=submit]{
 }
 
 footer input[type=text]{
-  background-color: #191F2E;
   border:none;
   border-bottom: 1px solid rgba(255,255,255,0.5);
   color: rgba(255,255,255,0.5);
@@ -218,5 +217,6 @@ display:grid;
 }
 footer .info div:nth-of-type(2){
 font-size:14px;
-position:relative; top:-5px;
+position:relative;
+top:-5px;
 }

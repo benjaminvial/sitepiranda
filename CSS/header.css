@@ -69,3 +69,10 @@ header div:first-of-type img{
 header div:nth-of-type(3) img{
   margin-left: 23px;
 }
+
+
+/*hamburger menu*/
+p.hamburger{
+width: 0%;
+display: none;
+}
