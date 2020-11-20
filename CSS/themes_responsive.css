@@ -1,7 +1,4 @@
 @media screen and (max-width: 1024px) {
-
-  }
-
   .wrap {
   	width: 60%;
   	margin: auto;
@@ -94,10 +91,52 @@
   	color: black;
   }
 
-
-
  }
 @media screen and (max-width: 768px) {
+  @media only screen and (max-width: 768px)
+{
+
+
+.wrap {
+	width: 100%;
+
+}
+
+.theme
+{
+
+	margin:5%;
+
+}
+.texte
+{
+	margin-right:5%;
+	margin-left: 5%;
+	width:40%;
+
+}
+
+.theme > div {
+	max-width: 45%;
+}
+
+.boutondroite {
+	margin-left:5%;
+	font-size:80px;
+
+}
+
+div p a
+{
+	font-size:50%;
+
+}
+div a
+{
+	font-size:75%;
+
+}
+}
 
 
 @media screen and (max-width: 480px) {
