@@ -44,7 +44,7 @@ footer .contact{
 
 footer .contact p{
   text-align: center;
-  align-items: center;
+  align-items: stretch;
   display: block;
   font-weight:  400;
   font-size: 150%;
@@ -79,7 +79,7 @@ footer .info div{
 }
 
 /* Newsletter*/
-footer input[type=submit]{
+ input[type=submit]{
   background-color: #005570;
   border-radius: 0 35% 35% 0;
   border:none;
@@ -88,7 +88,7 @@ footer input[type=submit]{
   color: white;
 }
 
-footer input[type=text]{
+ input[type=text]{
   background-color: #191F2E;
   border:none;
   border-bottom: 1px solid rgba(255,255,255,0.5);

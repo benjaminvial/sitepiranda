@@ -1,12 +1,12 @@
 body{
 	font-family: Roboto;
+		background-image: url('../pictures/inspirations/ligne.svg');
+			background-repeat: repeat-y;
 }
 
 .wrap {
 	width: 60%;
 	margin: auto;
-	background-image: url('../pictures/inspirations/ligne.svg');
-	background-repeat: no-repeat;
 }
 
 .theme, .themereverse {

@@ -24,10 +24,7 @@
           <img src="<?php echo get_template_directory_uri();?>/pictures/logo/email.svg" alt="logo enveloppe">
           <h3>newsletter</h3>
           <p>Pour rester au courant de mes projets !</p>
-          <form class="" action="index.html" method="post">
-            <input type="text" name="newsletter" value="Adresse mail">
-            <input type="submit" value=">">
-          </form>
+          <?php echo do_shortcode('[sibwp_form id=2]'); ?>
         </div>
 
     </div>

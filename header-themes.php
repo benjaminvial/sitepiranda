@@ -17,8 +17,9 @@
 
 <?php wp_head();?>
 
+<?php $imageBanner = get_field('bannerHeader');?>
 </head>
-<header>
+<header style="background-image:url('<?php echo $imageBanner['url'];?>');">
 <div class="top">
   <div>
   <a href="index.php"  title="retour à l'index">

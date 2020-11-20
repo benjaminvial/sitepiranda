@@ -17,12 +17,16 @@ function custom_theme_assets() {
     wp_enqueue_style('header-style', get_template_directory_uri().'/css/header.css');
     wp_enqueue_style('reset-style', get_template_directory_uri().'/css/reset.css');
     wp_enqueue_style('oeuvres-style', get_template_directory_uri().'/css/oeuvres.css');
-
+    wp_enqueue_style('footer-responsive', get_template_directory_uri().'/css/footer_responsive.css');
+    //si on est sur la page theme
     if(is_page('inspirations')){
+    //on charge le style themes.css
     wp_enqueue_style('page-inspirations', get_template_directory_uri().'/css/inspirations.css');
   }
 
+    //si on est sur la page theme
     if(is_page('themes')){
+    //on charge le style themes.css
       wp_enqueue_style('page-themes-style', get_template_directory_uri().'/css/themes.css');
     }
 
@@ -31,13 +35,17 @@ function custom_theme_assets() {
     //on charge le style front-page.css
       wp_enqueue_style('front-page-style', get_template_directory_uri().'/css/front-page.css');
     }
-
+    //si on est sur la page contact
     if(is_page('contact')){
+    //on charge le style contact.css
       wp_enqueue_style('contact', get_template_directory_uri().'/css/contact.css');
     }
 }
 add_action( 'wp_enqueue_scripts', 'custom_theme_assets');
 
+
+
+/*ajoute un grp de champs permettant d'ajouter des thèmes */
   if( function_exists('acf_add_local_field_group') ):
 
   acf_add_local_field_group(array(

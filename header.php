@@ -17,11 +17,12 @@
 
 <?php wp_head();?>
 
+<?php $imageBanner = get_field('bannerHeader');?>
 </head>
-<header>
+<header style="background-image:url('<?php echo $imageBanner['url'];?>');">
 <div class="top">
   <div>
-  <a href="index.php"  title="retour à l'index">
+  <a href=""  title="retour à l'index">
 	   <img src="<?php echo get_template_directory_uri();?>/pictures/logo/monogramme.svg" alt="logo piranda"  width=" " height=" ">
 	   </a>
   </div>
