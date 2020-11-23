@@ -30,7 +30,7 @@
     color: white;
   }
 
-  footer input[type=text]{
+  footer input[type=email]{
     padding-bottom: 2px;
   }
 
@@ -90,7 +90,7 @@
     color: white;
   }
 
-  footer input[type=text]{
+  footer input[type=email]{
     padding-bottom: 4px;
     }
 

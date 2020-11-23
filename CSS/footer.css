@@ -88,13 +88,13 @@ footer .info div{
   color: white;
 }
 
- input[type=text]{
+ input[type=email]{
   background-color: #191F2E;
   border:none;
   border-bottom: 1px solid rgba(255,255,255,0.5);
   color: rgba(255,255,255,0.5);
   padding-bottom: 4px;
-  
+
 }
 
 /*réseau sociaux et copyright*/
